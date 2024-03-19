@@ -1,0 +1,7 @@
+#include "controllerinteraction"
+
+ControllerInteraction::ControllerInteraction(QObject *parent)
+    : QObject{parent}
+{
+
+}

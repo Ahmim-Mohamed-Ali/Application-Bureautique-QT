@@ -1,0 +1,38 @@
+[
+    {
+        "Contenu": "Allez Au Casino",
+        "Date Creation": "2023-12-13",
+        "ID Contact": "39",
+        "Id Interaction": "8"
+    },
+    {
+        "Contenu": "Rgardez le Match",
+        "Date Creation": "2023-12-13",
+        "ID Contact": "39",
+        "Id Interaction": "9"
+    },
+    {
+        "Contenu": "Arrete de Manger Dehors",
+        "Date Creation": "2023-12-15",
+        "ID Contact": "39",
+        "Id Interaction": "11"
+    },
+    {
+        "Contenu": "Go A Verdon",
+        "Date Creation": "2023-12-15",
+        "ID Contact": "53",
+        "Id Interaction": "14"
+    },
+    {
+        "Contenu": "Go Au Restaurant !",
+        "Date Creation": "2023-12-15",
+        "ID Contact": "53",
+        "Id Interaction": "15"
+    },
+    {
+        "Contenu": "Allez En Vacances",
+        "Date Creation": "2023-12-19",
+        "ID Contact": "39",
+        "Id Interaction": "16"
+    }
+]

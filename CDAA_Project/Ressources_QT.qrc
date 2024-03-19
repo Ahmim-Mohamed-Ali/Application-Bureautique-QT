@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Ressources/add-user.png</file>
+        <file>Ressources/listing-user.png</file>
+        <file>Ressources/ajouter-interaction.png</file>
+        <file>Ressources/interaction.png</file>
+        <file>Ressources/heure-et-date.png</file>
+        <file>Ressources/trier.png</file>
+        <file>Ressources/calendrier.png</file>
+        <file>Ressources/search-engine-optimization.png</file>
+        <file>Ressources/tache.png</file>
+        <file>Ressources/json.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Ressources/contact.png</file>
+        <file>Ressources/delete-user.png</file>
+        <file>Ressources/ajouter-interaction.png</file>
+        <file>Ressources/interaction.png</file>
+    </qresource>
+</RCC>

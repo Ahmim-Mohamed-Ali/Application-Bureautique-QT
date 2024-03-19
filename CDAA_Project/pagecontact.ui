@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PageContact</class>
+ <widget class="QMainWindow" name="PageContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Page Contact</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>211</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="Nom"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="Prenom"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="Entreprise"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="Mail"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="Telephone"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="Date_Creation"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="id"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Prenom</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Entreprise</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Telephone</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Date_Creation</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Identifiant:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="Result_Interaction">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>60</y>
+      <width>191</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Derniere Modification:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Modification">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Photo">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>201</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>665</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuA_Propos">
+    <property name="title">
+     <string>A Propos</string>
+    </property>
+    <addaction name="actionModifier_La_Fiche"/>
+    <addaction name="actionSupprimer_La_Fiche"/>
+   </widget>
+   <widget class="QMenu" name="menuInteractions">
+    <property name="title">
+     <string>Interactions</string>
+    </property>
+    <addaction name="actionAjouter_Une_Interaction"/>
+    <addaction name="actionLister_Les_Interactions"/>
+    <addaction name="actionRecherche_Interaction"/>
+   </widget>
+   <addaction name="menuA_Propos"/>
+   <addaction name="menuInteractions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionModifier_La_Fiche"/>
+   <addaction name="actionSupprimer_La_Fiche"/>
+   <addaction name="actionLister_Les_Interactions"/>
+   <addaction name="actionAjouter_Une_Interaction"/>
+   <addaction name="actionRecherche_Interaction"/>
+  </widget>
+  <action name="actionModifier_La_Fiche">
+   <property name="icon">
+    <iconset resource="Ressources_QT.qrc">
+     <normaloff>:/Ressources/contact.png</normaloff>:/Ressources/contact.png</iconset>
+   </property>
+   <property name="text">
+    <string>Modifier La Fiche</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_La_Fiche">
+   <property name="icon">
+    <iconset resource="Ressources_QT.qrc">
+     <normaloff>:/Ressources/delete-user.png</normaloff>:/Ressources/delete-user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer La Fiche</string>
+   </property>
+  </action>
+  <action name="actionAjouter_Une_Interaction">
+   <property name="icon">
+    <iconset resource="Ressources_QT.qrc">
+     <normaloff>:/rec/Ressources/ajouter-interaction.png</normaloff>:/rec/Ressources/ajouter-interaction.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ajouter Une Interaction</string>
+   </property>
+  </action>
+  <action name="actionLister_Les_Interactions">
+   <property name="icon">
+    <iconset resource="Ressources_QT.qrc">
+     <normaloff>:/rec/Ressources/interaction.png</normaloff>:/rec/Ressources/interaction.png</iconset>
+   </property>
+   <property name="text">
+    <string>Lister Les Interactions</string>
+   </property>
+  </action>
+  <action name="actionRecherche_Interaction">
+   <property name="icon">
+    <iconset resource="Ressources_QT.qrc">
+     <normaloff>:/rec/Ressources/search-engine-optimization.png</normaloff>:/rec/Ressources/search-engine-optimization.png</iconset>
+   </property>
+   <property name="text">
+    <string>Recherche Interaction</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Ressources_QT.qrc"/>
+ </resources>
+ <connections/>
+</ui>
